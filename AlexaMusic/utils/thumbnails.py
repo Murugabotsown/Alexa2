@@ -136,8 +136,8 @@ async def gen_thumb(videoid, user_id, theme):
             text_w, text_h = draw.textsize(f"ALEXA MUSIC IS PLAYING OP", font=font)
             draw.text(
                 ((1280 - text_w) / 2, 30),
-                f"ALEXA MUSIC IS PLAYING OP",
-                fill="red",
+                f"STARTED PLAYING",
+                fill="white",
                 font=font,
             )
             text_w, text_h = draw.textsize(
